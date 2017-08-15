@@ -17,10 +17,15 @@ name = raw_input("Name: ")
 age = int(input("Enter your age: "))
 x = 100 - age
 today = datetime.datetime.now()
-y100 = today + x
+y100 = today.year + x
 
 #print (today.year)
 # x = 100 - age
 # today.year + x -> 100 years old
-print ("Hello " +name ", You will be 100 years in {0}" format(y100))
+print ('Hello %s, You will be 100 years in %d'%(name,y100))
+
+# Lessons learnt:
+# 1. Import datetime module. This is one way to access the date and time info.
+# 2. Print statement: Failed so many times until the above code was reached.
+# 3. For strings the input() function does not work. Use raw_input() function
 
