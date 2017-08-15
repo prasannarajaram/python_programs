@@ -29,3 +29,8 @@ print ('Hello %s, You will be 100 years in %d'%(name,y100))
 # 2. Print statement: Failed so many times until the above code was reached.
 # 3. For strings the input() function does not work. Use raw_input() function
 
+# Extras coding
+count = int(input("How many times do u want to print 'Yahoo!'?:"))
+while count > 0:
+    print ("Yahoo!")
+    count = count - 1
